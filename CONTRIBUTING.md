@@ -41,7 +41,7 @@ To work on zprezto without messing with your current configuration:
 ```sh
 mkdir devel-zprezto
 cd devel-zprezto
-git clone --recursive https://github.com/sorin-ionescu/prezto.git .zprezto
+git clone --recursive https://github.com/zijung/prezto.git .zprezto
 ZDOTDIR=$(pwd)
 echo "Your development ZDOTDIR is $ZDOTDIR"
 setopt EXTENDED_GLOB
@@ -67,7 +67,7 @@ ZDOTDIR=/path/to/devel-zprezto zsh
    - A screenshots section must be present in the file header.
    - The pull request description must have [embedded screenshots][6].
 
-[1]: https://github.com/sorin-ionescu/prezto/contributors
+[1]: https://github.com/zijung/prezto/contributors
 [2]: http://gun.io/blog/how-to-github-fork-branch-and-pull-request
 [3]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [4]: https://help.github.com/articles/using-pull-requests
